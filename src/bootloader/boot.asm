@@ -331,6 +331,10 @@ kernel_cluster: dw 0
 
 buffer equ 0x0500
 
+;test: db 11h, 22h, 33h, 44h, 55h
+;lmao i got more space than the tutorial guy
+;im better ig /j
+
 KERNEL_LOAD_SEGMENT equ 0x2000
 KERNEL_LOAD_OFFSET equ 0
 
